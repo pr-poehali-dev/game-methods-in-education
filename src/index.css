@@ -105,3 +105,9 @@
     font-weight: 700;
   }
 }
+
+@layer utilities {
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-[1.02];
+  }
+}
